@@ -83,7 +83,6 @@ private:
 
 public:
     SubstitutionCipherGUI(QWidget *parent = nullptr) : QWidget(parent) {
-        // Equivalent to Python's string.printable[:-6] (digits + lowercase + uppercase + punctuation)
         list_chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~";
         newKey();
 
